@@ -1,5 +1,7 @@
 # Overview
-This email validator is written by python3 made with full of <3 purpose is to checks the validity of the existing email addresses by performing DNS lookups and SMTP connectivity tests. It uses multi-threading to speed up the validation process.
+This email validator was written in Python 3 with full of <3. It was born out of my curiosity as I explored email validation APIs I saw online. but sadly they had rate limits so. Thats why I was fascinated by the flow and decided to build this code.
+
+Email Validator checks the validity of the existing email addresses by performing DNS lookups and SMTP connectivity tests. It uses multi-threading to speed up the validation process.
 
 # Main Components
 Email Reader: The code reads a list of email addresses from a file named ```"emails.txt"```.
